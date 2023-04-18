@@ -33,3 +33,4 @@ artifacts:
   files:
     - '**/*'
   base-directory: 'cypress'
+  name: quicksight-$(date +%Y-%m-%d) 
