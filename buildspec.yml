@@ -23,12 +23,12 @@ phases:
     commands:
         - npm run start &
         - npx cypress run --reporter junit
-  reports:
-    cypress-reports:
-      files:
-        - cypress/results
-  artifacts:
+reports:
+  cypress-reports:
     files:
       - cypress/results
-      - cypress/screenshots
-      - cypress/videos
+artifacts:
+  files:
+    - cypress/results
+    - cypress/screenshots
+    - cypress/videos
