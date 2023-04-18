@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="24.618" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-04-18T18:46:38" tests="0" file="cypress/e2e/2-advanced-examples/spec.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Quicksight Visual Regression Test" timestamp="2023-04-18T18:46:38" tests="1" time="24.592" failures="0">
+    <testcase name="Quicksight Visual Regression Test Navigate to dashboard" time="21.571" classname="Navigate to dashboard">
+    </testcase>
+  </testsuite>
+</testsuites>
