@@ -21,12 +21,14 @@ phases:
       - npm run cy:info
   build:
     commands:
+        - echo $CODEBUILD_SRC_DIR
         - npm run start &
         - npx cypress run --reporter junit
 reports:
   cypress-reports:
     files:
-      - cypress/results/*
+      - '**/*'
+    file-format: JUNITXML
 artifacts:
   files:
     - cypress/results/*
