@@ -26,9 +26,9 @@ phases:
 reports:
   cypress-reports:
     files:
-      - cypress/results
+      - cypress/results/*
 artifacts:
   files:
-    - cypress/results
-    - cypress/screenshots
-    - cypress/videos
+    - cypress/results/*
+    - cypress/screenshots/*
+    - cypress/videos/*
