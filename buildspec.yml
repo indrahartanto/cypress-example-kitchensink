@@ -31,6 +31,5 @@ reports:
     file-format: JUNITXML
 artifacts:
   files:
-    - cypress/results/*
-    - cypress/screenshots/*
-    - cypress/videos/*
+    - '**/*'
+  base-directory: 'cypress'
